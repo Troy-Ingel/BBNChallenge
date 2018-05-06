@@ -2,6 +2,7 @@
 
 #Technologies
 NodeJS: Download at https://nodejs.org/en/download/
+Nodemon: run 'npm install -g nodemon' in project directory. (may have to use sudo or run as administrator)
 AngularJS: (Already installed)
 Bootstrap: (Already installed)
 Jquery: (Already installed)
