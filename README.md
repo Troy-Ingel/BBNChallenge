@@ -6,7 +6,7 @@ AngularJS: (Already installed)
 Bootstrap: (Already installed)
 Jquery: (Already installed)
 
-#Running the Server (A remove server can also be reached at https://bbn-challenge.herokuapp.com/#!/)
+#Running the Server (A remove server can be reached at https://bbn-challenge.herokuapp.com/#!/)
 1. cd into the project directory
 2. run the command 'npm install' (only needs to be done if you don't have a node_modules folder in the project)
 3. run the command 'npm start'. Once you see ‘Server running at localhost:8080’, the server has finished setting up and is ready to start accepting requests.
