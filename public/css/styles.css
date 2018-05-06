@@ -1,0 +1,32 @@
+*{
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+}
+
+.ciph-container {
+	font-size: 30px;
+	border-style: solid;
+    border-width: 2px;
+}
+
+.myBtn, .myIpt, p {
+	font-size: 20px;
+}
+
+.mb-20{
+	margin-bottom: 20px;
+}
+
+.mt-20{
+	margin-top: 20px;
+}
+
+.wrap { 
+   white-space: pre-wrap;      
+   white-space: -moz-pre-wrap; 
+   white-space: -pre-wrap;     
+   white-space: -o-pre-wrap;   
+   word-wrap: break-word;    
+}
+
+

@@ -1,0 +1,33 @@
+<div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2" >
+    <h1> BBN Challenge - Message Encryption/Decryption </h2>
+    <br><hr><br>
+    <div class="mb-20 ciph-container col-lg-5 col-md-5" >Substitution Cipher
+	    <input class="mb-20 mt-20 myIpt form-control" type="text" maxlength="20" placeholder="Plaintext" ng-model="subPlaintext"/>
+	    <input class="mb-20 myIpt form-control" type="text" maxlength="20" placeholder="CipherText" ng-model="subCiphertext"/>
+	    
+	    <button class="myBtn btn btn-default" ng-click="substitutionEncryption(plaintext)" ng-disabled="!subPlaintext">Encrypt</button>
+	    <button class="myBtn btn btn-default" ng-click="substitutionDecryption(ciphertext)" ng-disabled="!subCiphertext">Decrypt</button>
+
+	    <br>
+
+	    <button class="mt-20 mb-20 myBtn btn btn-default" ng-click="getSubstitutionKey()" ng-disabled="loadingSubKey">Get Substitution Key</button>
+		<p ng-show="loadingSubKey"><i class="fa fa-refresh fa-spin"></i> Please wait while the substitution key is being retreived. 
+		Feel free to keep encrypting/decrypting in the meantime!</p>
+		<p class="wrap" ng-hide="!substitutionKey || loadingSubKey"> <strong>Substitution Key: </strong> {{ substitutionKey }}</p>
+    </div>
+    <div class="ciph-container col-lg-5 col-md-5 col-lg-offset-2 col-md-offset-2" >Vigenere Cipher
+	    <input class="mb-20 mt-20 myIpt form-control" type="text" maxlength="20" placeholder="Plaintext" ng-model="vigPlaintext"/>
+	    <input class="mb-20 myIpt form-control" type="text" maxlength="20" placeholder="CipherText" ng-model="vigCiphertext"/>
+	    
+	    <button class="myBtn btn btn-default" ng-click="vigenereEncryption(vigPlaintext)" ng-disabled="!vigPlaintext">Encrypt</button>
+	    <button class="myBtn btn btn-default" ng-click="vigenereDecryption(vigCiphertext)" ng-disabled="!vigCiphertext">Decrypt</button>
+	    
+	    <br>
+	   	
+	   	<button class="mt-20 mb-20 myBtn btn btn-default" ng-click="getVigenereKey()" ng-disabled="loadingVigKey">Get Vigenere Key</button>
+		<p ng-show="loadingVigKey"><i class="fa fa-refresh fa-spin"></i> Please wait while the vigenere key is being retreived. 
+		Feel free to keep encrypting/decrypting in the meantime!</p>
+		<p class="wrap" ng-hide="!vigenereKey || loadingVigKey"> <strong>Vigenere Key: </strong> {{ vigenereKey }} </p>
+    </div>
+</div>
+
