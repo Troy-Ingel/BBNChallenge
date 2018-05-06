@@ -14,6 +14,7 @@
 4. Open a web browser and go to the address ‘localhost:8080’. (mobile works as well)
 
 #Using the Application
+
 This simple server/client application allows you to encrypt or decrypt messages
 using a substitution or vigenere cipher. The cipher keys are stored on 
 the server side. The Client will make http requests to the server's REST api when
@@ -22,4 +23,5 @@ see the keys that were used as part of the encryption/decryption process. Howeve
 this request for the keys may take up to 30 seconds to process. (per requirements)
 
 #Help
+
 For additional help, the developer can be reached at: Tingel@quinnipiac.edu
