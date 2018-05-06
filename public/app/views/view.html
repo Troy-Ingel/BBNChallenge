@@ -3,7 +3,7 @@
     <br><hr><br>
     <div class="mb-20 ciph-container col-lg-5 col-md-5" >Substitution Cipher
 	    <input class="mb-20 mt-20 myIpt form-control" type="text" maxlength="20" placeholder="Plaintext" ng-model="subPlaintext"/>
-	    <input class="mb-20 myIpt form-control" type="text" maxlength="20" placeholder="CipherText" ng-model="subCiphertext"/>
+	    <input class="mb-20 myIpt form-control" type="text" maxlength="20" placeholder="Ciphertext" ng-model="subCiphertext"/>
 	    
 	    <button class="myBtn btn btn-default" ng-click="substitutionEncryption(plaintext)" ng-disabled="!subPlaintext">Encrypt</button>
 	    <button class="myBtn btn btn-default" ng-click="substitutionDecryption(ciphertext)" ng-disabled="!subCiphertext">Decrypt</button>
@@ -17,7 +17,7 @@
     </div>
     <div class="ciph-container col-lg-5 col-md-5 col-lg-offset-2 col-md-offset-2" >Vigenere Cipher
 	    <input class="mb-20 mt-20 myIpt form-control" type="text" maxlength="20" placeholder="Plaintext" ng-model="vigPlaintext"/>
-	    <input class="mb-20 myIpt form-control" type="text" maxlength="20" placeholder="CipherText" ng-model="vigCiphertext"/>
+	    <input class="mb-20 myIpt form-control" type="text" maxlength="20" placeholder="Ciphertext" ng-model="vigCiphertext"/>
 	    
 	    <button class="myBtn btn btn-default" ng-click="vigenereEncryption(vigPlaintext)" ng-disabled="!vigPlaintext">Encrypt</button>
 	    <button class="myBtn btn btn-default" ng-click="vigenereDecryption(vigCiphertext)" ng-disabled="!vigCiphertext">Decrypt</button>
